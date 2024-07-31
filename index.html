@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Roman Numeral Converter</title>
+    <link rel="icon" href="https://i.postimg.cc/BnW93WsD/logo-skauron.png" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <img
+          class="freecodecamp-logo"
+          src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+          alt="freeCodeCamp Logo"
+        />
+        <img
+          class="skauron-logo"
+          src="https://i.postimg.cc/BnW93WsD/logo-skauron.png"
+          alt="Skauron Logo"
+        />
+      </div>
+      <img
+        class="skauron-text"
+        src="https://i.postimg.cc/B67kwkMj/logo-text-skauron.png"
+        alt="Skauron Text"
+      />
+      <h1>Roman Numeral Converter</h1>
+      <form id="form" class="form">
+        <fieldset>
+          <label for="number">Enter a Number:</label><br />
+          <input type="number" id="number" required />
+          <button type="button" id="convert-btn" onclick="Convert()">Convert</button>
+        </fieldset>
+      </form>
+      <div id="output" class="output hidden"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
